@@ -1,0 +1,21 @@
+name: セッション（本文=骨子／差分はコメント）
+description: 完了セッションのバックアップ、または進行中セッションのSSOT化
+title: <タイトル>
+labels: []
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 本文（骨子最小）
+      description: 目的／主要トピック／決定／未決 を簡潔に。機微は [MASKED]、日付は書かない。
+      placeholder: |
+        目的:
+        主要トピック:
+        決定:
+        未決:
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        **注意**: 差分はコメントで追記し、分割規約（≤30KB／≥10秒／1バッチ≤5）と末尾規約（中間「— 続く」／最終「— 完」／単独なし）を守ってください。

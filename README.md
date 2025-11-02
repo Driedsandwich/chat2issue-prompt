@@ -6,6 +6,7 @@ LLM/IDE などのチャットを **1セッション=1 Issue** で軽量にバッ
 ## 使い方（5分導線）
 1. **Index Issue を作る**（目次）
    - 下の"Index本文の雛形"をコピー→新規 Issue に貼り付け→作成
+   - もしくは **ワンクリック作成** → [Indexを作る](../../issues/new?title=%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E7%9B%AE%E6%AC%A1%EF%BC%88%E6%9C%80%E6%96%B0%E9%A0%86%EF%BC%89&body=%3C!--%20INDEX-ANCHOR:%20DO%20NOT%20EDIT%20ABOVE%20--%3E%0A%0A%7C%20%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%20%7C%20%23Issue%20%7C%20%E6%A6%82%E8%A6%81%EF%BC%88120%E5%AD%97%EF%BC%89%20%7C%0A%7C---%7C---%7C---%7C)
    - ※ Fork/Template/Importer では Issue 本文は複製されないことが多いため、
      まず自分のリポで Index を1つ作るところから始めます。
 

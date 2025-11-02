@@ -76,7 +76,7 @@ LLM/IDE などのチャットを **1セッション=1 Issue** で軽量にバッ
 - Index雛形: `docs/examples/index-issue-body.md`
 - SSOT運用: `docs/SSOT.md`
 - セキュリティ: `SECURITY.md`
-- プロンプト: `docs/prompts/templates/`（参考正本）／派生の投稿は `CONTRIBUTING.md`
+- プロンプト: `docs/prompts/templates/`（参考正本。例：[`chat_to_gh_issue_backup_prompt_v1.2.md`](docs/prompts/templates/chat_to_gh_issue_backup_prompt_v1.2.md)）／派生の投稿は `CONTRIBUTING.md`
 
 ---
 

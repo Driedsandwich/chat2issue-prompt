@@ -2,9 +2,15 @@
 
 歓迎: **プロンプト派生の追加PR** / ドキュメント改善 / バグ報告。
 
+## 参加方法（非エンジニア向けの簡単な説明）
+- **Issue を立てる（相談）**: わからない/提案したいときは、まず Issue に"やりたいこと"を書いてください。
+- **直接 PR を出す（反映提案）**: すでに本文が用意できている場合は、
+  `docs/prompts/templates/<client>/...` に **UIでコピペ**→ 保存 → PRを作成、でOKです。
+- **他の人ができること**: このリポジトリは **Issue作成** と **PR提出** を受け付けます（公開テンプレート）。
+
 ## プロンプトの追加（派生）の方針
 - ディレクトリ: `docs/prompts/templates/` に **新規ファイル**として追加してください。
-- ファイル名: `chat_to_gh_issue_backup_prompt_<variant>.md`（例: `_claude.md`, `_gpt.md` など）
+- ファイル名: `chat_to_gh_issue_backup_prompt_<variant>.md`（例: `_claude.md`, `_gpt.md`, `_gemini.md` など）
 - 品質基準:
   - **SOP（手順説明）を本文/コメントに混在させない**（SOPはテンプレ/docs側へ）。
   - **[MASKED]** ルール（機微の具体例は `SECURITY.md` を参照）。

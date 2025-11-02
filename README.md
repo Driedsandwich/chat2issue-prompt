@@ -3,6 +3,8 @@
 LLM/IDE などのチャットを **1セッション=1 Issue** で軽量にバックアップする最小テンプレート。
 **Saved Replies は同梱しません**（必要文は"コピペ用コードブロック"で提供）。
 
+> **最新安定版**: [v0.1.0 リリース](https://github.com/Driedsandwich/chat2issue-prompt/releases/tag/v0.1.0)
+
 ## 使い方（5分導線）
 1. **Index Issue を作る**（目次）
    - 下の"Index本文の雛形"をコピー→新規 Issue に貼り付け→作成

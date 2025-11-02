@@ -65,6 +65,11 @@ LLM/IDE などのチャットを **1セッション=1 Issue** で軽量にバッ
 - 新規テンプレrepoなら、最初の Index を #1 にすると分かりやすい。
 - 既存repoなら、任意番号でOK（タイトル基準で探す／なければ作成）。
 
+## 参加方法（他の人は何ができる？）
+- **Issue で相談**："このクライアント用のプロンプトを追加したい" 等を書くだけでOK（非エンジニア歓迎）
+- **直接 PR**：`docs/prompts/templates/<client>/...` に **UIでコピペ**→保存→PR。
+  - 参考: `CONTRIBUTING.md`（参加方法／命名ルール）、`docs/prompts/COMPATIBILITY_MATRIX.md`（対応状況）
+
 ## 注意
 - 機微は **`[MASKED]`**、本文に日付は書かない。
 - SOP（手順文）は本文/コメントに混在させない（下記 docs を参照）。
@@ -76,6 +81,7 @@ LLM/IDE などのチャットを **1セッション=1 Issue** で軽量にバッ
 - Index雛形: `docs/examples/index-issue-body.md`
 - SSOT運用: `docs/SSOT.md`
 - セキュリティ: `SECURITY.md`
+- 互換状況: `docs/prompts/COMPATIBILITY_MATRIX.md`
 - プロンプト: `docs/prompts/templates/`（参考正本。例：[`chat_to_gh_issue_backup_prompt_v1.2.md`](docs/prompts/templates/chat_to_gh_issue_backup_prompt_v1.2.md)）／派生の投稿は `CONTRIBUTING.md`
 
 ---
